@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>NodeChat</title>
+</head>
+<body>
+    
+    <div class="mainPage__wrapper">
+        <div class="mainPage__management">
+            <button class="mainPage__management_btn" id="logout">
+                Выйти
+            </button>
+            <button class="mainPage__management_btn" id="deleteUser">
+                Удалить пользователя
+            </button>
+        </div>
+        <div class="mainPage__block">
+            <div class="mainPage__block_chat" id="chat"></div>
+            <div class="mainPage__block_form">
+                <input type="text" id="newMessage" class="mainPage__block_inp">
+                <button class="mainPage__block_submit" id="message__submit">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
